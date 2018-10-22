@@ -11,3 +11,20 @@
  text-align: center;
  color: white;
 }
+
+.banner-user {
+  height: 50vh;
+  width: 100%;
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-inline {
+  input, select, a {
+    margin: 7px;
+  }
+}
