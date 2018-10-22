@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  a {
+    margin: 15px;
+    color: grey;
+  }
+}
+
+.footer-links a:hover {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.footer-copyright {
+  align-items: center;
+}
+
+.fa-heart {
+  color: #D23333;
+}

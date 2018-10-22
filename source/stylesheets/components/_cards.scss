@@ -1,0 +1,53 @@
+
+
+.card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  padding: 0px;
+  height: 200px;
+  background-size: cover;
+  color: white;
+  position: relative;
+  margin: 20px;
+  border: solid white 2px;
+}
+
+.cards .card {
+  flex: 1 1 auto;
+}
+
+.card-user {
+  position: absolute;
+  width: 30px;
+  top: 8px;
+  right: 15px;
+  border-radius: 50%;
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+
+.card-link:hover {
+  opacity: 0.3;
+}
+
+.card-title {
+  position: absolute;
+  font-size: 25px;
+  left: 10px;
+  color: #F5E0B7;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left : 10px;
+  color: white;
+}
